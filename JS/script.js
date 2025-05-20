@@ -10,3 +10,4 @@ targets.forEach(target => {
         t.classList.add('active')
     })
 })
+
