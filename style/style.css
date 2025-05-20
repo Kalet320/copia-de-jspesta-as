@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 5%;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu p {
+    margin-right: 30px;
+    letter-spacing: 2px;
+    word-spacing: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.contenido {
+    margin-top: 3rem;
+}
+
+[data-content] {
+    display: none;
+}
+
+.active[data-content] {
+    display: block;
+}
